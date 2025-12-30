@@ -4,6 +4,7 @@
 bin/
 obj/
 out/
+Migrations/
 
 # User-specific files
 *.user
