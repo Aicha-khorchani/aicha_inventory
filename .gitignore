@@ -1,0 +1,69 @@
+# =========================
+# .NET / Blazor / Razor
+# =========================
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.vscode
+.vsconfig
+
+# Visual Studio cache & temp
+*.cache
+*.log
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Rider / Others
+# =========================
+.idea/
+*.iml
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+.nuget/
+packages/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env

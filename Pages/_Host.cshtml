@@ -1,0 +1,34 @@
+@page "/"
+@namespace InventoryApp.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="~/" />
+
+    <!-- Bootstrap CSS -->
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Your custom app styles -->
+    <link href="~/css/app.css" rel="stylesheet" />
+
+    <!-- Razor-generated component styles -->
+    <link href="InventoryApp.styles.css" rel="stylesheet" />
+
+    <title>InventoryApp</title>
+</head>
+<body>
+    <app>
+        <component type="typeof(Routes)" render-mode="ServerPrerendered" />
+    </app>
+
+    <script src="_framework/blazor.server.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
